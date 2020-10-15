@@ -22,6 +22,7 @@ public class AbstractSpringMvcTest {
 
   @Before
   public void setup() {
+    System.out.println("Hello word");
     this.mockMvc = MockMvcBuilders.webAppContextSetup(this.applicationContext).build();
   }
 
