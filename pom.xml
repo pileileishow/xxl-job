@@ -102,7 +102,7 @@
 							<execution>
 								<phase>package</phase>
 								<goals>
-									<goal>jar</goal>
+									<goal>war</goal>
 								</goals>
 								<configuration>
 									<doclint>none</doclint>
